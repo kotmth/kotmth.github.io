@@ -1,97 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>KOTMTH - My Portfolio</title>
-	<meta name="Description" content="Multimedia Developer, Web Developer. I especially for creating a website multimedia and studying.">
-	<meta name="Keywords" content="KOTMT, KOTMTH Multimedia Developer, TMTH, KOTMTH Portfolio,Portfolio, Web Developer, Web Designer, Multimedia Developer">
-	<link rel="shortcut icon" type="image/favicon.jpg" href="images/favicon.jpg"/>
+    <meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/flexboxgrid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel='stylesheet prefetch' href="css/slick.css">
-	<link rel="stylesheet" href="css/slider.css">
+    <title>SlickNav Demo - Responsive Mobile Nav Plugin for jQuery</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <!-- Flex Grid -->
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Slick Slider -->
+    <link rel='stylesheet prefetch' href="css/slick.css">
+    <link rel="stylesheet" href="css/slider.css">
 
 </head>
-<body class="layout">
+<body>
 
-	<div class="wrap">
+    <div class="wapper">
+        <nav>
+            <div class="nav-container">
+                <div class="nav-left">
+                    <ul id="menu">
+                        <li><a href="#" class="fa fa-home"> Home</a></li>
+                        <li><a href="#" class="fa fa-address-book"> About</a></li>
+                        <li><a href="#" class="fa fa-briefcase"> Portfolio</a></li>
+                        <li><a href="#" class="fa fa-wpexplorer"> Education</a></li>
+                        <li><a href="#" class="fa fa-envelope-open"> Contact Us</a></li>
+                    </ul>
+                </div>
 
-		<nav>
-			<div class="nav-container">
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="#" class="fa fa-facebook-official"> Facebook</a></li>
+                        <li><a href="#" class="fa fa-twitter"> Twitter</a></li>
+                    </ul>
+                </div>
 
-				<div class="nav-left">
-					<a href="#" class="nav-item">
-						<i class="fa fa-home" aria-hidden="true"></i>
-						Home
-					</a>
-					<a href="#" class="nav-item">
-						<i class="fa fa-address-book" aria-hidden="true"></i> Profile</a>
-						<a href="#" class="nav-item">
-							<i class="fa fa-briefcase" aria-hidden="true"></i> Portfolio</a>
-							<a href="#" class="nav-item">
-								<i class="fa fa-wpexplorer" aria-hidden="true"></i> Education</a>
-								<a href="#" class="nav-item">
-									<i class="fa fa-envelope-open" aria-hidden="true"></i> Contact Us</a>
-								</div>
+            </div>
+        </nav>
 
-								<div class="nav-center">
+        <!-- Slider -->
 
-								</div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slider--item" style="background-image: url(images/slider-01.jpg)">
+                </div>
+                <div class="slider--item" style="background-image: url(images/slider-02.jpg)">
+                </div>
+                <div class="slider--item" style="background-image: url(images/slider-03.jpg)">
+                </div>
+                <div class="slider--item" style="background-image: url(images/slider-04.jpg)">
+                </div>
+                <div class="slider--item" style="background-image: url(images/slider-05.jpg)">
+                </div>
+                <div class="slider--item" style="background-image: url(images/slider-06.jpg)">
+                </div>
 
-								<div class="nav-right">
-									<a href="https://web.facebook.com/KOTMTH" class="nav-item">
-										<i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
-									</div>
-								</div>
-							</nav>
-							
-							<div class="slider-wrapper">
-								<div class="slider">
-									<div class="slider--item" style="background-image: url(images/slider-01.jpg)">
-									</div>
-									<div class="slider--item" style="background-image: url(images/slider-02.jpg)">
-									</div>
-									<div class="slider--item" style="background-image: url(images/slider-03.jpg)">
-									</div>
-									<div class="slider--item" style="background-image: url(images/slider-04.jpg)">
-									</div>
-									<div class="slider--item" style="background-image: url(images/slider-05.jpg)">
-									</div>
-									<div class="slider--item" style="background-image: url(images/slider-06.jpg)">
-									</div>
+            </div>
+        </div>
+    </div>
 
-								</div>
-							</div>
-							<script src="js/jquery.min.js"></script>
-							<script src="js/slick.min.js"></script>
-							<script src="js/TweenMax.min.js"></script>
-							<script src="js/index.js"></script>
+    
+    <footer class="main-footer">
+        2017@ Portfolio of KOTMTH
+    </footer>
 
+    <!-- Moderninzer Js -->
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
+    <!-- Slider Js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/index.js"></script>
 
-							<!-- <div class="container">
-								<div class="row">
-									<div class="col-md-3 col-sm-6 col-xs-12">
-										<div class="box-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti est fuga nihil, sunt cumque, quod sint natus quisquam in numquam reiciendis ducimus ullam quia omnis similique id velit harum optio.</div>
-									</div>
-									<div class="col-md-3 col-sm-6 col-xs-12">
-										<div class="box-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi consequuntur, rem sunt, eum accusamus deserunt ut a placeat necessitatibus ducimus aut magnam fuga libero cupiditate unde dolorem at impedit!</div>
-									</div>
-									<div class="col-md-3 col-sm-6 col-xs-12">
-										<div class="box-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi consequuntur, rem sunt, eum accusamus deserunt ut a placeat necessitatibus ducimus aut magnam fuga libero cupiditate unde dolorem at impedit!</div>
-									</div>
-									<div class="col-md-3 col-sm-6 col-xs-12">
-										<div class="box-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi consequuntur, rem sunt, eum accusamus deserunt ut a placeat necessitatibus ducimus aut magnam fuga libero cupiditate unde dolorem at impedit!</div>
-									</div>
-								</div>
-							</div> -->
-						</div>
-						
-						<footer class="main-footer">
-							2017@ Portfolio of KOTMTH
-						</footer>
-					</body>
-
-					</html>
+    <!-- Slicknav Js -->
+    <script src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $('#menu').slicknav();
+       });
+   </script>
+</body>
+</html>
